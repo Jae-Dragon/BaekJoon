@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int selfNum(int N);
+int selfNum(int N);//셀프넘버가 아닌 것을 구하는 함수
 
 int main()
 {
     /* 1. 셀프 넘버를 구하고 반복문 돌려서 아닌 것들만 판명? */
     /* 셀프넘버의 성질: 자기 자신보다는 무조건 큼 */
-    /* */
+
 
     int arr[10000] = {0}, a = 0;
 

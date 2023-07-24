@@ -6,7 +6,7 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int two = 0, five = 0;
+    int two = 0, five = 0;//2의 개수, 5의 개수
 
     for(int i = 2; i <= n; i++)
     {

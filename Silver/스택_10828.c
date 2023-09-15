@@ -23,13 +23,12 @@ int main()
 {
     int N;
     scanf("%d", &N);
-    getchar();
     char order[20];
 
     for(int i = 0 ; i < N; i++)
     {
         scanf("%s", order);
-        getchar();
+
         if(strcmp("pop", order) == 0)
         {
             pop();
@@ -63,7 +62,6 @@ int main()
         {
             int n;
             scanf("%d", &n);
-            getchar();
             push(n);
         }
         
